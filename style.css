@@ -1,0 +1,111 @@
+    body {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('assets/images/coffee.jpg');
+        background-size: cover;
+        color: rgb(22, 21, 21)
+    }
+    
+    .outercolor {
+        margin: auto;
+        width: 1000px;
+        background-image: url(" https://tse2.mm.bing.net/th?id=OIP.rBcBDbA2Dx_T-t2grfqD1wHaEo&pid=Api&P=0&h=180.jpg");
+    }
+    
+    #billGenerate {
+        text-align: center;
+        margin: auto;
+        width: 920px;
+        word-spacing: 4px;
+    }
+    
+    #billPage {
+        width: 450px;
+        height: 650px;
+        margin: auto;
+        background-color: rgb(243, 237, 229);
+        border: 1px solid black;
+        text-align: center;
+        position: fixed;
+    }
+    
+    b {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+    }
+    
+    #address {
+        font-size: 14px;
+    }
+    
+    #title {
+        letter-spacing: 10px;
+        border-bottom: dotted;
+    }
+    
+    #billPage {
+        display: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        table-layout: fixed;
+        width: 300px;
+    }
+    
+    table th,
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        width: 100px
+    }
+    
+    .bold {
+        font-weight: bolder;
+    }
+    
+    #selectItem {
+        flex-basis: 80%;
+        display: inline-flex;
+        padding: 20px;
+    }
+    
+    .table1 {
+        border: 2px;
+        border-color: black;
+        border-style: double;
+        padding: 3.5px;
+    }
+    
+    p {
+        font-weight: bolder;
+    }
+    
+    .qty {
+        width: 50px
+    }
+    
+    .price {
+        display: none
+    }
+    
+    #print {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    
+    #totaltr {
+        font-weight: bolder;
+    }
+    
+    #r2 {
+        display: inline;
+    }
+    
+    input {
+        font-size: 20px;
+        font-weight: bolder;
+    }
